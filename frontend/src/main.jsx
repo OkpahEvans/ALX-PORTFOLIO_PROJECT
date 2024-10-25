@@ -6,11 +6,11 @@ import { UserProvider } from "./context/User.jsx";
 import { SongProvider } from "./context/Song.jsx";
 
 createRoot(document.getElementById("root")).render(
-	  <StrictMode>
-	    <UserProvider>
-	      <SongProvider>
-	        <App />
-	      </SongProvider>
-	    </UserProvider>
-	  </StrictMode>
+  <StrictMode>
+    <UserProvider>
+      <SongProvider>
+        <App />
+      </SongProvider>
+    </UserProvider>
+  </StrictMode>
 );
